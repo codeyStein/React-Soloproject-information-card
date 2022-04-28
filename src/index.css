@@ -1,0 +1,191 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #fff;
+  --dark: #1A1B21;
+  --footer: #161619;
+  --light: #23252C;
+  --gold: #F3BF99;
+  --light-grey: #F5F5F5;
+  --grey: #D1D5DB;
+  --dark-grey: #374151;
+  --darker-grey: #DCDCDC;
+
+  --light-black: #1E1F26;
+}
+
+body {
+  background: var(--light);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+}
+
+/* FOOTER */
+.footer {
+  position: absolute;
+  left: 50%;
+  bottom: 5.2rem;
+  transform: translate(-50%);
+
+  width: 20rem;
+  height: 4rem;
+
+  border-radius: 0px 0px 10px 10px;
+
+  color: var(--darker-grey);
+  background-color: var(--footer);
+  text-decoration: none;
+}
+
+.footer--socials li {
+  display: inline;
+  list-style-type: none;
+  font-size: 1rem;
+  padding: 0px 0.5rem;
+}
+
+
+/* MAIN */
+.interests {
+  position: absolute;
+  left: 50%;
+  top: 72%;
+  transform: translateX(-50%);
+}
+
+.interests--header {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--white);
+  
+  margin-top: 1rem;
+}
+
+.interests--text {
+  max-width: 247px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.6rem;
+  color: var(--darker-grey);
+  
+  margin: 0;
+  margin-top: -15px;
+
+  line-height: 150%;
+}
+
+.about {
+  position: absolute;
+  left: 50%;
+  top: 54%;
+  transform: translateX(-50%);
+}
+
+.about--header {
+  font-weight: 700;
+  font-style: normal;
+  font-size: 1rem;
+  color: var(--white);
+  
+  margin-top: 5rem;
+}
+
+.about--text {
+  max-width: 247px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.6rem;
+  color: var(--darker-grey);
+  
+  margin: 0;
+  margin-top: -15px;
+
+  line-height: 150%;
+}
+
+.main {
+  position: absolute;
+  width: 20rem;
+  height: 48rem;
+
+  margin: 0;
+  
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  background: var(--dark);
+
+  z-index: -99;
+  border-radius: 10px;
+}
+
+
+/* info*/
+.info--email {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 15.5rem;
+  height: 2rem;
+
+  text-align: center;
+
+  background: var(--white);
+  border-radius: 5px;
+  border: 2px solid #f5f5f5;
+
+}
+
+.info--email i {
+  padding-right: 8px;
+}
+
+.info--name {
+  max-width: 317px;
+
+  margin-top: 20px;
+
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2rem;
+
+  text-align: center;
+
+  color: var(--white);
+}
+
+.info--role {
+  margin-top: -20px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.8rem;
+  text-align: center;
+
+  color: var(--gold);
+}
+
+.info--website {
+  margin-top: -20px;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.5rem;
+  text-align: center;
+
+  color: var(--light-grey);
+}
+
+.info--image {
+  margin: 0rem;
+}
+
+
+
+
